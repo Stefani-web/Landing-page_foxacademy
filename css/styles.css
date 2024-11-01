@@ -151,6 +151,21 @@ header nav a {
   margin-bottom: 20px;
 }
 
+/* Style pour le conteneur cta-content */
+.cta-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Espace entre le bouton et l'image */
+}
+
+/* Style pour l'image dans la section cta */
+.cta-image {
+  width: 150px; /* Ajustez la taille selon vos besoins */
+  height: auto;
+  cursor: pointer; /* Change le curseur pour indiquer que l'image est cliquable */
+}
+
 /* Footer */
 footer {
   background: #000;
