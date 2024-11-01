@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   line-height: 1.6;
   color: #000;
 }
@@ -58,6 +58,38 @@ header nav a {
   margin-left: 20px; /* Ajustez la marge selon vos besoins */
 }
 
+/* Style pour le texte dans .image-section */
+.image-section .text-content h2 {
+  font-family: 'Arial', sans-serif; /* Police pour le titre */
+  font-size: 3em; /* Taille de la police pour le titre */
+  font-weight: bold; /* Poids de la police pour le titre */
+  color: #333; /* Couleur du titre */
+  margin-bottom: 20px; /* Espace sous le titre */
+}
+
+.image-section .text-content p {
+  font-family: 'Arial', sans-serif; /* Police pour les paragraphes */
+  font-size: 1.2em; /* Taille de la police pour les paragraphes */
+  color: #555; /* Couleur des paragraphes */
+  line-height: 1.6; /* Hauteur de ligne pour les paragraphes */
+  margin-bottom: 10px; /* Espace sous les paragraphes */
+}
+
+/* Style pour le bouton .btn-cta */
+.btn-cta {
+  background-color: #028181;
+  color: #f7f7f7;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transition pour l'effet au survol */
+}
+
+.btn-cta:hover {
+  background-color: #026666; /* Couleur de fond au survol */
+}
 
 /* Features Section */
 .features {
@@ -92,10 +124,9 @@ header nav a {
     }
 }
 
-
 /* Testimonials Section */
 .testimonials {
-  background: #000;
+  background: #e74d2c;
   color: #f7f7f7;
   padding: 50px 0;
   text-align: center;
