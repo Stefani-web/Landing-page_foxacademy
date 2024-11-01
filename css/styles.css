@@ -42,21 +42,6 @@ header nav a {
   text-decoration: none;
 }
 
-/*header .btn {
-  background: #FE5617;
-  color: #f7f7f7;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-}*/
-
-/* Image Section
-.image-section .header-image {
-  width: 30%;
-  height: auto;
-  display: block;
-}*/
-
 /* Image Section */
 .image-section .header-image {
   width: 30%;
