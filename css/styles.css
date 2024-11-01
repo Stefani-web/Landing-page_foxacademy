@@ -8,12 +8,12 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #000;
 }
 
 /* Header */
 header {
-  background: #333;
+  background: #000;
   color: #f7f7f7;
   padding: 1em 0;
 }
@@ -46,7 +46,7 @@ header .btn {
 
 /* Hero Section */
 .hero {
-  background: url('hero-background.jpg') no-repeat center center/cover;
+
   color: #f7f7f7;
   padding: 100px 0;
   text-align: center;
@@ -94,7 +94,7 @@ header .btn {
 
 /* Testimonials Section */
 .testimonials {
-  background: #333;
+  background: #000;
   color: #f7f7f7;
   padding: 50px 0;
   text-align: center;
@@ -121,7 +121,7 @@ header .btn {
 
 /* Footer */
 footer {
-  background: #333;
+  background: #000;
   color: #f7f7f7;
   text-align: center;
   padding: 10px 0;
