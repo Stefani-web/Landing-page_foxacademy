@@ -18,61 +18,65 @@ header {
   padding: 1em 0;
 }
 
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Permet de garder le logo à gauche et de centrer les éléments restants */
+}
+
 header .logo {
   font-size: 1.5em;
   font-weight: bold;
+  margin-right: auto; /* Assure que le logo reste à gauche */
+}
+
+header nav {
+  display: flex;
+  gap: 10px;
+  flex-grow: 1; /* Permet de prendre l'espace restant pour centrer le nav */
+  justify-content: center; /* Centre les liens de navigation */
 }
 
 header nav a {
   color: #f7f7f7;
-  margin: 0 10px;
   text-decoration: none;
 }
 
-header .btn {
+/*header .btn {
   background: #FE5617;
   color: #f7f7f7;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
-}
+}*/
+
+/* Image Section
+.image-section .header-image {
+  width: 30%;
+  height: auto;
+  display: block;
+}*/
 
 /* Image Section */
 .image-section .header-image {
-  width: 100%;
+  width: 30%;
   height: auto;
   display: block;
 }
 
-/* Hero Section */
-.hero {
-
-  color: #f7f7f7;
-  padding: 100px 0;
-  text-align: center;
+.image-section .image-and-text {
+  display: flex;
+  align-items: center;
 }
 
-.hero h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
+.image-section .text-content {
+  margin-left: 20px; /* Ajustez la marge selon vos besoins */
 }
 
-.hero p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
-.cta-btn {
-  background: #FE5617;
-  color: #f7f7f7;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-}
 
 /* Features Section */
 .features {
-  padding: 50px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -81,16 +85,28 @@ header .btn {
 }
 
 .feature-card {
-  background: #f7f7f7;
+  background: #028181;
   padding: 20px;
-  margin: 10px;
-  border-radius: 8px;
+  border-radius: 50px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px; /* Espace entre les cartes */
+  transition: transform 0.3s; /* Animation au survol */
 }
 
-.feature-card h3 {
-  color: #FE5617;
+.feature-card:hover {
+  transform: translateY(-5px); /* Légère élévation au survol */
 }
+
+@media (max-width: 200px) {
+    .feature-card {
+        margin-bottom: 20px; /* Espacement sur les petits écrans */
+    }
+}
+
 
 /* Testimonials Section */
 .testimonials {
