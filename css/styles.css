@@ -96,6 +96,7 @@ header nav a {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease; /* Transition pour l'effet au survol */
+  text-decoration: none; /* Enlever le soulignement */
 }
 
 .btn-cta:hover {
