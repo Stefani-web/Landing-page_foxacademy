@@ -402,3 +402,11 @@ footer nav a {
 .social-icon:hover {
   transform: scale(1.1); /* Légère augmentation de la taille au survol */
 }
+
+.photo-section {
+  max-width: 1000%;
+  height: auto;
+  width: 70%; /* Ajuste ce pourcentage selon tes besoins */
+  display: block;
+  margin: 0 auto; /* Centrer l'image */
+}
