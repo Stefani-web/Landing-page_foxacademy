@@ -105,7 +105,7 @@ header nav a {
 /* Section Titles */
 .section-title {
   display: inline-block;
-  background-color: #c96d5a; /* Couleur de fond */
+  background-color: #028181; /* Couleur de fond */
   color: #f7f7f7; /* Couleur du texte */
   padding: 10px 10px; /* Padding pour créer l'effet de bouton */
   border-radius: 20px; /* Coins arrondis */
@@ -117,7 +117,7 @@ header nav a {
 .features {
   padding: 40px 0; /* Augmentez le padding pour plus d'espace */
   text-align: center;
-  background-color: #f7f7f7; /* Ajoutez une couleur de fond légère */
+  background-color: #c96d5a; /* Ajoutez une couleur de fond légère */
 }
 
 .features h2 {
@@ -150,10 +150,14 @@ header nav a {
 
 .features h2 {
   font-size: 2.5em; /* Augmentez la taille de la police */
-  color: #f7f7f7; /* Couleur du titre */
+  color: #028181; /* Couleur du titre */
   margin-bottom: 30px; /* Espace sous le titre */
   font-weight: bold; /* Ajoutez du gras au titre */
   text-align: center; /* Centre le titre */
+  background-color: #fff; /* Fond blanc pour le titre */
+  padding: 10px 20px; /* Padding pour créer l'effet de bouton */
+  border-radius: 20px; /* Coins arrondis */
+  display: inline-block; /* Pour que le titre ne prenne pas toute la largeur */
 }
 
 .feature-card p {
@@ -182,10 +186,14 @@ header nav a {
 
 .team h2 {
   font-size: 2.5em; /* Augmentez la taille de la police */
-  color: #f7f7f7; /* Couleur du titre */
+  color: #028181; /* Couleur du titre */
   margin-bottom: 30px; /* Espace sous le titre */
   font-weight: bold; /* Ajoutez du gras au titre */
   text-align: center; /* Centre le titre */
+  background-color: #fff; /* Fond blanc pour le titre */
+  padding: 10px 20px; /* Padding pour créer l'effet de bouton */
+  border-radius: 20px; /* Coins arrondis */
+  display: inline-block; /* Pour que le titre ne prenne pas toute la largeur */
 }
 
 
@@ -240,10 +248,14 @@ header nav a {
 
 .about h2 {
   font-size: 2.5em; /* Augmentez la taille de la police */
-  color: #f7f7f7; /* Couleur du titre */
+  color: #028181; /* Couleur du titre */
   margin-bottom: 30px; /* Espace sous le titre */
   font-weight: bold; /* Ajoutez du gras au titre */
   text-align: center; /* Centre le titre */
+  background-color: #fff; /* Fond blanc pour le titre */
+  padding: 10px 20px; /* Padding pour créer l'effet de bouton */
+  border-radius: 20px; /* Coins arrondis */
+  display: inline-block; /* Pour que le titre ne prenne pas toute la largeur */
 }
 
 .feature-card {
@@ -282,20 +294,31 @@ header nav a {
   }
 }
 
-/* contact Section */
-
+/* Contact Section */
 .contact {
   padding: 40px 0; /* Augmentez le padding pour plus d'espace */
   text-align: center;
-  background-color: #f7f7f7; /* Ajoutez une couleur de fond légère */
+  background-color: #c96d5a; /* Ajoutez une couleur de fond légère */
 }
 
 .contact h2 {
   font-size: 2.5em; /* Augmentez la taille de la police */
-  color: #f7f7f7; /* Couleur du titre */
+  color: #028181; /* Couleur du titre */
   margin-bottom: 30px; /* Espace sous le titre */
   font-weight: bold; /* Ajoutez du gras au titre */
   text-align: center; /* Centre le titre */
+  background-color: #fff; /* Fond blanc pour le titre */
+  padding: 10px 20px; /* Padding pour créer l'effet de bouton */
+  border-radius: 20px; /* Coins arrondis */
+  display: inline-block; /* Pour que le titre ne prenne pas toute la largeur */
+}
+
+.contact-content {
+  background-color: #fff; /* Fond blanc pour le contenu de contact */
+  padding: 20px;
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Légère ombre pour un effet de carte */
+  display: inline-block; /* Pour centrer le contenu */
 }
 
 .contact p {
@@ -304,6 +327,22 @@ header nav a {
   line-height: 1.8; /* Hauteur de ligne pour les paragraphes */
   margin-bottom: 20px; /* Espace sous les paragraphes */
 }
+
+.contact-icons {
+  margin-top: 20px;
+}
+
+.contact-icons a {
+  margin: 0 10px;
+  color: #028181; /* Couleur des icônes */
+  font-size: 2em; /* Taille des icônes */
+  transition: transform 0.5s; /* Animation au survol */
+}
+
+.contact-icons a:hover {
+  transform: scale(1.5); /* Légère augmentation de la taille au survol */
+}
+
 
 /* CTA Section */
 .cta {
