@@ -57,7 +57,7 @@ This functionality will allow us to evolve with the needs of children and streng
 
 educational impact of the platform by integrating the suggestions of those who know their journey best.
 
-##License : Distributed under the MIT License.
+## License : Distributed under the MIT License.
 See [LICENSE](https://www.holbertonschool.fr/) for more information.
 
 
