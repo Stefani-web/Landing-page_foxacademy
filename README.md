@@ -57,6 +57,10 @@ This functionality will allow us to evolve with the needs of children and streng
 
 educational impact of the platform by integrating the suggestions of those who know their journey best.
 
+## Discover the landing page
+
+[Landing page Here](https://stefani-web.github.io/Landing-page_foxacademy/)
+
 ## License : Distributed under the MIT License.
 See [LICENSE](https://www.holbertonschool.fr/) for more information.
 
