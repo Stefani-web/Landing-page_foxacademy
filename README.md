@@ -24,8 +24,8 @@ evolution of games as rewards.
 
 ## Team
 
-- **LinkedIn:** [Delphine Hannon](https://www.linkedin.com/in/stephanie-c-35582a13a/)
-- **LinkedIn:** [Stephanie C.rvalho](https://github.com/Delphine-H/)
+- **LinkedIn:** [Delphine Hannon](https://www.linkedin.com/in/delphine-hannon/)
+- **LinkedIn:** [Stephanie C.rvalho](https://www.linkedin.com/in/stefani-web/)
 
 ## About Us
 
