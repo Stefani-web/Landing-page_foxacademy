@@ -20,6 +20,8 @@ evolution of games as rewards.
 
 - **Rewards System:**  Earn rewards by completing quizzes.
 
+<img src="https://cdn.discordapp.com/attachments/1212359396739252225/1302694105955958845/Capture_decran_2024-11-03_185953.png?ex=67290bed&is=6727ba6d&hm=1b48c35bbca536a79816b2770521249db6b9a13e5aa19ae54d9edb3017174f13&" alt="feature-section">
+
 ## Team
 
 - **LinkedIn:** [Delphine Hannon](https://www.linkedin.com/in/stephanie-c-35582a13a/)
@@ -56,8 +58,6 @@ adding suggestions for quizzes and educational content.
 This functionality will allow us to evolve with the needs of children and strengthen the
 
 educational impact of the platform by integrating the suggestions of those who know their journey best.
-
-<img src="https://cdn.discordapp.com/attachments/1212359396739252225/1302694105955958845/Capture_decran_2024-11-03_185953.png?ex=67290bed&is=6727ba6d&hm=1b48c35bbca536a79816b2770521249db6b9a13e5aa19ae54d9edb3017174f13&" alt="feature-section">
 
 ## Technologies
 
