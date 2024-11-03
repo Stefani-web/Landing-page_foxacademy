@@ -1,6 +1,6 @@
 # Landing-page_foxacademy
 
- <img src="https://cdn.discordapp.com/attachments/1212359396739252225/1302638539913035837/welcome.png?ex=6728d82d&is=672786ad&hm=4f3496527a50536fdaf3082893e90bd1da453794c6be64945d8b0d27a22e8a08&" alt="Welcome on FoxAcademy">
+<img src="https://cdn.discordapp.com/attachments/1212359396739252225/1302638539913035837/welcome.png?ex=6728d82d&is=672786ad&hm=4f3496527a50536fdaf3082893e90bd1da453794c6be64945d8b0d27a22e8a08&" alt="Welcome on FoxAcademy">
 
 ## Introduction
 
@@ -56,6 +56,16 @@ adding suggestions for quizzes and educational content.
 This functionality will allow us to evolve with the needs of children and strengthen the
 
 educational impact of the platform by integrating the suggestions of those who know their journey best.
+
+<img src="https://cdn.discordapp.com/attachments/1212359396739252225/1302694105955958845/Capture_decran_2024-11-03_185953.png?ex=67290bed&is=6727ba6d&hm=1b48c35bbca536a79816b2770521249db6b9a13e5aa19ae54d9edb3017174f13&" alt="feature-section">
+
+## Technologies
+
+Used For the creation of this landing page, the following technologies were used:
+
+- **HTML**: To structure the content of the page.
+- **CSS**: To style the page, with the use of media queries to make the design responsive.
+- **Bootstrap**: To speed up development and use pre-styled components.
 
 ## Discover the landing page
 
