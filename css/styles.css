@@ -384,6 +384,14 @@ footer nav a {
   text-decoration: none;
 }
 
+.footer-logo {
+  width: 30px; 
+  height: auto; /* Maintient le ratio d'aspect de l'image */
+  margin: 10px; /* Ajoute un espace autour de l'image */
+  display: inline-block; /* Assure que l'image se comporte comme un élément en ligne */
+  vertical-align: middle; /* Aligne verticalement l'image avec le texte environnant */
+}
+
 /* Social Links */
 .social-links {
   margin-top: 15px;
@@ -405,9 +413,21 @@ footer nav a {
 }
 
 .photo-section {
-  max-width: 1000%;
+  max-width: 100%;
   height: auto;
   width: 70%; /* Ajuste ce pourcentage selon tes besoins */
   display: block;
   margin: 0 auto; /* Centrer l'image */
+}
+
+/* Section Github referentiel */
+.github-link {
+  align-items: center;
+  text-decoration: none;
+}
+
+.github-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
