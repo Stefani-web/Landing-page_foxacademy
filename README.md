@@ -1,6 +1,6 @@
 # Landing-page_foxacademy
 
- <img src="https://cdn.discordapp.com/attachments/1212359396739252225/1302311133797027981/Welcome.png?ex=6727a742&is=672655c2&hm=166959fbc711f6ca4707fcd693a5a07b1b946b81a8d1a126532f96d462c71158&" alt="Welcome on FoxAcademy">
+ <img src="https://cdn.discordapp.com/attachments/1212359396739252225/1302638539913035837/welcome.png?ex=6728d82d&is=672786ad&hm=4f3496527a50536fdaf3082893e90bd1da453794c6be64945d8b0d27a22e8a08&" alt="Welcome on FoxAcademy">
 
 ## Introduction
 
