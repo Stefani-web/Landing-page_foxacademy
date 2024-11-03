@@ -9,43 +9,44 @@ body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   color: #000;
-  padding-top: 60px; /* Ajoutez un padding-top pour éviter que le contenu soit caché derrière le header fixe */
+  padding-top: 60px;
 }
 
 /* Header */
+
 header {
   background: #000;
   color: #f7f7f7;
   padding: 1em 0;
-  position: fixed; /* Rend le header fixe */
+  position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; /* Assure que le header reste au-dessus des autres éléments */
+  z-index: 1000;
 }
 
 header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Permet de garder le logo à gauche et de centrer les éléments restants */
+  justify-content: space-between;
 }
 
 header .logo {
   font-size: 1.5em;
   font-weight: bold;
-  margin-right: auto; /* Assure que le logo reste à gauche */
-  color: #f7f7f7; /* Couleur du texte */
-  text-decoration: none; /* Supprime la décoration de lien */
+  margin-right: auto;
+  color: #f7f7f7;
+  text-decoration: none;
 }
 
 header .logo:hover {
-  color: #f7f7f7; /* Assure que la couleur ne change pas au survol */
+  color: #f7f7f7;
 }
 
 header nav {
   display: flex;
   gap: 10px;
-  flex-grow: 1; /* Permet de prendre l'espace restant pour centrer le nav */
-  justify-content: center; /* Centre les liens de navigation */
+  flex-grow: 1;
+  justify-content: center;
 }
 
 header nav a {
@@ -54,6 +55,7 @@ header nav a {
 }
 
 /* Image Section */
+
 .image-section .header-image {
   width: 30%;
   height: auto;
@@ -66,27 +68,29 @@ header nav a {
 }
 
 .image-section .text-content {
-  margin-left: 20px; /* Ajustez la marge selon vos besoins */
+  margin-left: 20px;
 }
 
 /* Style pour le texte dans .image-section */
+
 .image-section .text-content h2 {
-  font-family: 'Arial', sans-serif; /* Police pour le titre */
-  font-size: 3em; /* Taille de la police pour le titre */
-  font-weight: bold; /* Poids de la police pour le titre */
-  color: #333; /* Couleur du titre */
-  margin-bottom: 20px; /* Espace sous le titre */
+  font-family: 'Arial', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .image-section .text-content p {
-  font-family: 'Arial', sans-serif; /* Police pour les paragraphes */
-  font-size: 1.2em; /* Taille de la police pour les paragraphes */
-  color: #000; /* Couleur des paragraphes */
-  line-height: 1.6; /* Hauteur de ligne pour les paragraphes */
-  margin-bottom: 10px; /* Espace sous les paragraphes */
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2em;
+  color: #000;
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
 
 /* Style pour le bouton .btn-cta */
+
 .btn-cta {
   background-color: #028181;
   color: #f7f7f7;
@@ -95,124 +99,127 @@ header nav a {
   border-radius: 20px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Transition pour l'effet au survol */
-  text-decoration: none; /* Enlever le soulignement */
+  transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 .btn-cta:hover {
-  background-color: #026666; /* Couleur de fond au survol */
+  background-color: #026666;
 }
 
 /* Section Titles */
+
 .section-title {
   display: inline-block;
-  background-color: #028181; /* Couleur de fond */
-  color: #f7f7f7; /* Couleur du texte */
-  padding: 10px 10px; /* Padding pour créer l'effet de bouton */
-  border-radius: 20px; /* Coins arrondis */
-  font-size: 2em; /* Taille de la police */
+  background-color: #028181;
+  color: #f7f7f7;
+  padding: 10px 10px;
+  border-radius: 20px;
+  font-size: 2em;
   box-shadow: 0 4px 20px #028181;
 }
 
 /* Features Section */
+
 .features {
-  padding: 40px 0; /* Augmentez le padding pour plus d'espace */
+  padding: 40px 0;
   text-align: center;
-  background-color: #c96d5a; /* Ajoutez une couleur de fond légère */
+  background-color: #c96d5a;
 }
 
 .features h2 {
-  font-size: 2.5em; /* Augmentez la taille de la police */
-  color: #000; /* Couleur du titre */
-  margin-bottom: 30px; /* Espace sous le titre */
-  font-weight: bold; /* Ajoutez du gras au titre */
+  font-size: 2.5em;
+  color: #000;
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .features p {
-  font-size: 1.2em; /* Taille de la police pour les paragraphes */
-  color: #000; /* Couleur des paragraphes */
-  line-height: 1.8; /* Hauteur de ligne pour les paragraphes */
-  margin-bottom: 20px; /* Espace sous les paragraphes */
+  font-size: 1.2em;
+  color: #000;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
 
 /* Feature Cards */
+
 .feature-card {
   background: #028181;
-  padding: 30px; /* Augmentez le padding pour plus d'espace */
-  border-radius: 20px; /* Réduisez le rayon de bordure pour des coins moins arrondis */
+  padding: 30px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px; /* Augmentez l'espace entre les cartes */
-  transition: transform 0.3s; /* Animation au survol */
+  margin: 20px;
+  transition: transform 0.3s;
 }
 
 .features h2 {
-  font-size: 2.5em; /* Augmentez la taille de la police */
-  color: #028181; /* Couleur du titre */
-  margin-bottom: 30px; /* Espace sous le titre */
-  font-weight: bold; /* Ajoutez du gras au titre */
-  text-align: center; /* Centre le titre */
-  background-color: #fff; /* Fond blanc pour le titre */
-  padding: 10px 20px; /* Padding pour créer l'effet de bouton */
-  border-radius: 20px; /* Coins arrondis */
-  display: inline-block; /* Pour que le titre ne prenne pas toute la largeur */
+  font-size: 2.5em;
+  color: #028181;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
 }
 
 .feature-card p {
-  font-size: 1.1em; /* Taille de la police pour les paragraphes des cartes */
-  color: #f7f7f7; /* Couleur du texte des paragraphes des cartes */
-  line-height: 1.6; /* Hauteur de ligne pour les paragraphes des cartes */
+  font-size: 1.1em;
+  color: #f7f7f7;
+  line-height: 1.6;
 }
 
 .feature-card:hover {
-  transform: translateY(-10px); /* Légère élévation au survol */
+  transform: translateY(-10px);
 }
 
 @media (max-width: 768px) {
   .feature-card {
-    margin-bottom: 30px; /* Espacement sur les petits écrans */
+    margin-bottom: 30px;
   }
 }
 
 /* Team Section */
 
 .team {
-  padding: 40px 0; /* Augmentez le padding pour plus d'espace */
+  padding: 40px 0;
   text-align: center;
-  background-color: #f9f9f9; /* Ajoutez une couleur de fond légère */
+  background-color: #f9f9f9;
 }
 
 .team h2 {
-  font-size: 2.5em; /* Augmentez la taille de la police */
-  color: #028181; /* Couleur du titre */
-  margin-bottom: 30px; /* Espace sous le titre */
-  font-weight: bold; /* Ajoutez du gras au titre */
-  text-align: center; /* Centre le titre */
-  background-color: #fff; /* Fond blanc pour le titre */
-  padding: 10px 20px; /* Padding pour créer l'effet de bouton */
-  border-radius: 20px; /* Coins arrondis */
-  display: inline-block; /* Pour que le titre ne prenne pas toute la largeur */
+  font-size: 2.5em;
+  color: #028181;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
 }
 
 
 .team-member {
   margin-bottom: 30px;
-  background-color: #f7f7f7; /* Fond blanc pour les cartes des membres de l'équipe */
+  background-color: #f7f7f7;
   padding: 20px;
-  border-radius: 20px; /* Coins légèrement arrondis */
-  box-shadow: 0 4px 8px #028181(0, 0, 0, 0.1); /* Légère ombre pour un effet de carte */
+  border-radius: 20px;
+  box-shadow: 0 4px 8px #028181(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .team-photo {
-  width: 50%; /* Assure que les photos prennent toute la largeur de leur conteneur */
+  width: 50%;
   height: auto;
-  border-radius: 10px; /* Coins légèrement arrondis */
+  border-radius: 10px;
   margin-bottom: 15px;
 }
 
@@ -234,99 +241,110 @@ header nav a {
   }
 
   .col-md-6 {
-    flex: 0 0 45%; /* Ajuste la largeur des colonnes */
+    flex: 0 0 45%;
     max-width: 45%;
-    margin: 0 2.5%; /* Espace entre les colonnes */
+    margin: 0 2.5%;
   }
 }
 
 /* About Section */
+
 .about {
-  padding: 40px 0; /* Augmentez le padding pour plus d'espace */
+  padding: 40px 0;
   text-align: center;
-  background-color: #f7f7f7; /* Ajoutez une couleur de fond légère */
+  background-color: #f7f7f7;
 }
 
 .about h2 {
-  font-size: 2.5em; /* Augmentez la taille de la police */
-  color: #028181; /* Couleur du titre */
-  margin-bottom: 30px; /* Espace sous le titre */
-  font-weight: bold; /* Ajoutez du gras au titre */
-  text-align: center; /* Centre le titre */
-  background-color: #fff; /* Fond blanc pour le titre */
-  padding: 10px 20px; /* Padding pour créer l'effet de bouton */
-  border-radius: 20px; /* Coins arrondis */
-  display: inline-block; /* Pour que le titre ne prenne pas toute la largeur */
+  font-size: 2.5em;
+  color: #028181;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
 }
+
+/* feature section */
 
 .feature-card {
   background: #028181;
-  padding: 30px; /* Augmentez le padding pour plus d'espace */
-  border-radius: 20px; /* Réduisez le rayon de bordure pour des coins moins arrondis */
+  padding: 30px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px; /* Augmentez l'espace entre les cartes */
-  transition: transform 0.3s; /* Animation au survol */
-  text-align: center; /* Centre le texte dans les cartes */
+  margin: 20px;
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.feature-card img.feature-image {
+  width: 350px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
 }
 
 .feature-card h3 {
-  font-size: 1.5em; /* Taille de la police pour les titres des cartes */
-  color: #f7f7f7; /* Couleur du texte des titres des cartes */
-  margin-bottom: 15px; /* Espace sous les titres des cartes */
+  font-size: 1.5em;
+  color: #f7f7f7;
+  margin-bottom: 15px;
 }
 
 .feature-card p {
-  font-size: 0.7em; /* Taille de la police pour les paragraphes des cartes */
-  color: #f7f7f7; /* Couleur du texte des paragraphes des cartes */
-  line-height: 1.6; /* Hauteur de ligne pour les paragraphes des cartes */
+  font-size: 0.7em;
+  color: #f7f7f7;
+  line-height: 1.6;
 }
 
 .feature-card:hover {
-  transform: translateY(-10px); /* Légère élévation au survol */
+  transform: translateY(-10px);
 }
 
 @media (max-width: 768px) {
   .feature-card {
-    margin-bottom: 30px; /* Espacement sur les petits écrans */
+    margin-bottom: 30px;
   }
 }
 
 /* Contact Section */
+
 .contact {
-  padding: 40px 0; /* Augmentez le padding pour plus d'espace */
+  padding: 40px 0;
   text-align: center;
-  background-color: #c96d5a; /* Ajoutez une couleur de fond légère */
+  background-color: #c96d5a;
 }
 
 .contact h2 {
-  font-size: 2.5em; /* Augmentez la taille de la police */
-  color: #028181; /* Couleur du titre */
-  margin-bottom: 30px; /* Espace sous le titre */
-  font-weight: bold; /* Ajoutez du gras au titre */
-  text-align: center; /* Centre le titre */
-  background-color: #fff; /* Fond blanc pour le titre */
-  padding: 10px 20px; /* Padding pour créer l'effet de bouton */
-  border-radius: 20px; /* Coins arrondis */
-  display: inline-block; /* Pour que le titre ne prenne pas toute la largeur */
+  font-size: 2.5em;
+  color: #028181;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
 }
 
 .contact-content {
-  background-color: #fff; /* Fond blanc pour le contenu de contact */
+  background-color: #fff;
   padding: 20px;
-  border-radius: 10px; /* Coins arrondis */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Légère ombre pour un effet de carte */
-  display: inline-block; /* Pour centrer le contenu */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
 }
 
 .contact p {
-  font-size: 1.2em; /* Taille de la police pour les paragraphes */
-  color: #000; /* Couleur des paragraphes */
-  line-height: 1.8; /* Hauteur de ligne pour les paragraphes */
-  margin-bottom: 20px; /* Espace sous les paragraphes */
+  font-size: 1.2em;
+  color: #000;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
 
 .contact-icons {
@@ -335,17 +353,18 @@ header nav a {
 
 .contact-icons a {
   margin: 0 10px;
-  color: #028181; /* Couleur des icônes */
-  font-size: 2em; /* Taille des icônes */
-  transition: transform 0.5s; /* Animation au survol */
+  color: #028181;
+  font-size: 2em;
+  transition: transform 0.5s;
 }
 
 .contact-icons a:hover {
-  transform: scale(1.5); /* Légère augmentation de la taille au survol */
+  transform: scale(1.5);
 }
 
 
 /* CTA Section */
+
 .cta {
   padding: 30px 0;
   text-align: center;
@@ -356,18 +375,20 @@ header nav a {
 }
 
 /* Style pour le conteneur cta-content */
+
 .cta-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px; /* Espace entre le bouton et l'image */
+  gap: 10px;
 }
 
 /* Style pour l'image dans la section cta */
+
 .cta-image {
-  width: 150px; /* Ajustez la taille selon vos besoins */
+  width: 150px;
   height: auto;
-  cursor: pointer; /* Change le curseur pour indiquer que l'image est cliquable */
+  cursor: pointer;
 }
 
 /* Footer */
@@ -385,14 +406,15 @@ footer nav a {
 }
 
 .footer-logo {
-  width: 30px; 
-  height: auto; /* Maintient le ratio d'aspect de l'image */
-  margin: 10px; /* Ajoute un espace autour de l'image */
-  display: inline-block; /* Assure que l'image se comporte comme un élément en ligne */
-  vertical-align: middle; /* Aligne verticalement l'image avec le texte environnant */
+  width: 30px;
+  height: auto;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* Social Links */
+
 .social-links {
   margin-top: 15px;
 }
@@ -403,24 +425,25 @@ footer nav a {
 }
 
 .social-icon {
-  width: 30px; /* Ajustez la taille des icônes selon vos besoins */
+  width: 30px;
   height: auto;
-  transition: transform 0.3s; /* Animation au survol */
+  transition: transform 0.3s;
 }
 
 .social-icon:hover {
-  transform: scale(1.1); /* Légère augmentation de la taille au survol */
+  transform: scale(1.1);
 }
 
 .photo-section {
   max-width: 100%;
   height: auto;
-  width: 70%; /* Ajuste ce pourcentage selon tes besoins */
+  width: 70%;
   display: block;
-  margin: 0 auto; /* Centrer l'image */
+  margin: 0 auto;
 }
 
 /* Section Github referentiel */
+
 .github-link {
   align-items: center;
   text-decoration: none;
